@@ -13,16 +13,7 @@ import { hrInboxPage } from '../src/pages/hrInboxPage';
 let page: Page;
 let empNum : string ; 
 
-// test.beforeAll(async ({ browser }) => {
 
-//   console.log('Before Test');
-//   const username = "90000595"
-//   const password = "Gratitude@12"
-//   const context = await browser.newContext();
-//   page = await context.newPage();
-//   const login = new loginpage(page);
-//   await login.goto();
-//   await login.sigIn(username, password);
 
 
 // })

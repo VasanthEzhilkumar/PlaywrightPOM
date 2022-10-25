@@ -17,12 +17,12 @@ export  class loginpage {
 
     if (country.includes("Romania"))
     {
-      await this.page.goto('https://wd3-impl.workday.com/primark7/d/home.htmld');
+      await this.page.goto('');
       
     }
     if (country.includes("Slovakia"))
     {
-      await this.page.goto ('https://wd3-impl.workday.com/primark2/d/home.htmld');
+      await this.page.goto ('');
       //await this.page.goto('https://wd3-impl.workday.com/wday/authgwy/primark11/login.htmld');
     }
   }

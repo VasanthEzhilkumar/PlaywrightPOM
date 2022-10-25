@@ -1,0 +1,31 @@
+{
+  "name": "workdaypw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.27.1",
+    "@types/adm-zip": "^0.5.0",
+    "@types/convert-excel-to-json": "1.7.1",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "adm-zip": "^0.5.9",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.20.0",
+    "eslint-plugin-import": "^2.26.0",
+    "experimental-allure-playwright": "0.0.3",
+    "lighthouse": "^9.6.3",
+    "pg": "^8.7.3",
+    "winston": "^3.8.1"
+  },
+  "dependencies": {
+    "convert-excel-to-json": "^1.7.0",
+    "exceljs": "^4.3.0",
+    "rimraf": "^3.0.2",
+    "write-excel-file": "^1.4.13"
+  }
+}

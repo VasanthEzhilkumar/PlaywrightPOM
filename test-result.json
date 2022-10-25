@@ -1,0 +1,182 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "c:/Users/vasanthkumar.ezhilku/Documents/WorkdayPW/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "",
+        "testDir": "c:/Users/vasanthkumar.ezhilku/Documents/WorkdayPW",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-result.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "c:/Users/vasanthkumar.ezhilku/Documents/WorkdayPW",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.25.1",
+    "workers": 1,
+    "webServer": null,
+    "_watchMode": false,
+    "_webServers": [],
+    "_globalOutputDir": "c:\\Users\\vasanthkumar.ezhilku\\Documents\\WorkdayPW",
+    "_configDir": "c:\\Users\\vasanthkumar.ezhilku\\Documents\\WorkdayPW",
+    "_testGroupsCount": 1,
+    "_workerIsolation": "isolate-pools"
+  },
+  "suites": [
+    {
+      "title": "tests\\test-2.spec.ts",
+      "file": "tests/test-2.spec.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "Parameterized test REGFinal",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "timedOut",
+                  "duration": 30016,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "stdout": [
+                    {
+                      "text": "Before Test\n"
+                    },
+                    {
+                      "text": "Before Test\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "c:\\Users\\vasanthkumar.ezhilku\\Documents\\WorkdayPW\\test-results\\tests-test-2-Parameterized-test-REGFinal\\test-failed-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "c:\\Users\\vasanthkumar.ezhilku\\Documents\\WorkdayPW\\test-results\\tests-test-2-Parameterized-test-REGFinal\\test-failed-2.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "c:\\Users\\vasanthkumar.ezhilku\\Documents\\WorkdayPW\\test-results\\tests-test-2-Parameterized-test-REGFinal\\test-failed-3.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "file": "tests/test-2.spec.ts",
+          "line": 66,
+          "column": 3
+        },
+        {
+          "title": "Parameterized test SKAutomation",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "timedOut",
+                  "duration": 30001,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "stdout": [
+                    {
+                      "text": "Before Test\n"
+                    },
+                    {
+                      "text": "Before Test\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "c:\\Users\\vasanthkumar.ezhilku\\Documents\\WorkdayPW\\test-results\\tests-test-2-Parameterized-test-SKAutomation\\test-failed-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "c:\\Users\\vasanthkumar.ezhilku\\Documents\\WorkdayPW\\test-results\\tests-test-2-Parameterized-test-SKAutomation\\test-failed-2.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "c:\\Users\\vasanthkumar.ezhilku\\Documents\\WorkdayPW\\test-results\\tests-test-2-Parameterized-test-SKAutomation\\test-failed-3.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "file": "tests/test-2.spec.ts",
+          "line": 66,
+          "column": 3
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

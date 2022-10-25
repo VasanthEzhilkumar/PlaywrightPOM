@@ -23,8 +23,8 @@ let empNum: string;
 test.beforeAll(async ({ browser }) => {
 
   console.log('Before Test');
-  const username = "90000601"
-  const password = "Gratitude@12"
+  const username = ""
+  const password = ""
   const context = await browser.newContext();
   page = await context.newPage();
   const login = new loginpage(page);
